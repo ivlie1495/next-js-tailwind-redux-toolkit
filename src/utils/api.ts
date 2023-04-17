@@ -1,4 +1,4 @@
-import type { Endpoint } from "@/constants/endpoints"
+import type { Endpoint } from '@/constants/endpoints'
 
 interface Options {
   endpoint: Endpoint

@@ -1,6 +1,7 @@
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
+
 import { POKEMON_LIST } from '@/constants/endpoints'
 import api from '@/utils/api'
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 
 export interface Pokemon {
   name: string
